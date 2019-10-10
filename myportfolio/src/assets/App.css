@@ -7,5 +7,56 @@ background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Fi
   background: #cb2d3e;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  text-align: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
+.avatar-img{
+  height: 250px;
+  border-radius: 500px;
+  background: #ffffff;;
+}
+
+.banner-text{
+  background: black;
+  opacity: .8;
+  width: 75%;
+  margin : auto;
+  border-radius: 10px;
+}
+
+.banner-text h2{
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.banner-text hr{
+  border-radius: 5px whitesmoke;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p{
+  font-size: 20px;
+  padding: 1em;
+  color : whitesmoke;
+  text-align: center;
+}
+.social-img{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: auto;
+}
+
+.social-img i{
+  color: white;
+  font-size: 5em;
+  padding : 8px;
+}
