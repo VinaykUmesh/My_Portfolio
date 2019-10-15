@@ -14,6 +14,10 @@ background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Fi
   height: 100%;
 }
 
+.projects-grid{
+  display: flex;
+}
+
 .avatar-img{
   height: 250px;
   border-radius: 500px;
