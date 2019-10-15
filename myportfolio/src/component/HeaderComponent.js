@@ -10,7 +10,6 @@ function HeaderComponent() {
         <Layout>
             <Header title={<span><strong>MY</strong> Portfolio</span>} scroll className="header-gradient">
             <Navigation>
-                                <Link to="/home">Home</Link>
                                 <Link to="/resume">Resume</Link>
                                 <Link to="/aboutme">About Me</Link>
                                 <Link to="/project">Projects</Link>
@@ -19,8 +18,7 @@ function HeaderComponent() {
                         
                     </Header>
                     <Drawer title="My Portfolio">
-                        <Navigation>
-                                <Link to="/home">Home</Link>    
+                        <Navigation>  
                                 <Link to="/resume">Resume</Link>
                                 <Link to="/aboutme">About Me</Link>
                                 <Link to="/project">Projects</Link>
